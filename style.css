@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont
+{
+background-color: hsl(225, 100%, 98%);
+height: 560px;
+width: 400px;
+border-radius: 8px;
+text-align: center;
+
+
+}
+
+img
+{
+    width: 400px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+}
+.b
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+span
+{
+    text-align: center;
+}
+.m
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:hsl(220, 100%, 97%);
+    gap: 10px;
+    border-radius: 8px;
+    padding: 3px;
+}
+a
+{
+    color: hsl(245, 75%, 52%)
+    ;
+}
+   
+.m img
+{
+height: 30px;
+width: 40px;
+
+}
+
+.c
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 130px;
+}
+.c span
+{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+    
+}
+p
+{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    line-height: 20px;
+}
+h3{
+    color:hsl(223, 47%, 23%);
+    font-weight: 800;
+    
+}
+.pay
+{
+    background-color: hsl(245, 75%, 52%);
+    padding: 8px;
+    border-radius: 10px;
+    color: hsl(225, 100%, 98%);
+    box-shadow: 1px 1px 1px hsl(245, 75%, 52%);
+
+}
+.fp
+{
+    padding:0px;
+}
